@@ -66,5 +66,24 @@
     <input type="password" placeholder="Senha">
     <a href="index.html"><button>Entrar</button></a>
   </div>
+  <py-script>
+  import PySimpleGUI as sg
+layout = [
+[sg.Text('Usuario')),
+ [sg.Input(key 'usuario')),
+[sg.Text('Senha')],
+[sg.Input(key-senha")],
+[sg.Button('login')], [sg.Text(),key='mensagem")],
+window - sg.Window('Login', Layout-layout)
+ while True:
+event, values = window.read() if event == sg.WIN_CLOSED:
+elif event "login":
+senha correta 'LKKIRA1912'
+usuario_correto - 'K1R4' usuario = values['usuario']
+senha values['senha']
+if senha - senha_correta and usuario == usuario_correto:
+window['mensagem'].update('Login feito com sucesso") else:
+window['mensagem'].update('senha ou usuário incorreto')
+  </py-script>
 </body>
 </html>
